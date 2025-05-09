@@ -7,4 +7,4 @@ for i in range(0, 90):
         lastdigit = i % 10
         if firstdigit != lastdigit:
             if firstdigit < lastdigit:
-                print("{:02d} ".format(i), end="")
+                print("{:02d}, ".format(i), end="")
