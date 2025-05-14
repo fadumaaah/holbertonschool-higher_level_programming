@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
     squared_matrix = [row[:] for row in matrix]
     for row in squared_matrix:
