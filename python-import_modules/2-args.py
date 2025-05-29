@@ -9,6 +9,6 @@ if __name__ == "__main__":
         for i in range(len(argv)):
             print("{}: {}".format(i + 1, argv[i]))
     else:
-        print("{} arguments".format(len(argv)))
+        print("{} arguments:".format(len(argv)))
         for i in range(len(argv)):
             print("{}: {}".format(i + 1, argv[i]))
