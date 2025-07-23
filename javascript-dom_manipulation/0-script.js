@@ -1,0 +1,1 @@
+document.querySelector("HTML").style.color = "#FF0000";
